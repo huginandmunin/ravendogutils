@@ -1,4 +1,4 @@
-// Package ravendogutils has utility fucntions for dog.
+// Package ravendogutils has utility fucntions for dogs.
 package ravendogutils
 
 import (
@@ -6,7 +6,7 @@ import (
 )
 
 // Years calculates dog years based on human years input.
-// Ouput is an int.
+// Output is an int.
 func Years(humanYears int) int (
 	return humanYears * 7
 )
